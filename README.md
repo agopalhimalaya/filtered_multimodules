@@ -2,7 +2,7 @@
 
 Python code for filtered bordered Floer computations for manifolds with torus boundary, with coefficients over $\mathbb F_2$ and formal variables $W_1,W_2,W_3,\ldots$. The multimodules themselves are the usual unfiltered hat-version bordered Floer multimodules, while the tensor-product routines are written to be compatible with the filtration on the torus-boundary invariants.
 
-The codes are written over Jonathan Hanselman's `graph_manifolds_HFhat.py` and modified so that tensor products with the usual multimodules are compatible with the filtration. The code was also written with ChatGPT through iterative training and prompting on the codebase to make it more readable and help verify the implementations.
+The codes are written over Jonathan Hanselman's [`HFhat_graph_manifolds`](https://github.com/hanselman/HFhat_graph_manifolds) and modified so that tensor products with the usual multimodules are compatible with the filtration; see also the corresponding [paper](https://msp.org/agt/2016/16-6/agt-v16-n6-p02-s.pdf). The code was also written with ChatGPT through iterative training and prompting on the codebase to make it more readable and help verify the implementations.
 
 ## Current scope
 
